@@ -1,0 +1,115 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background: #0073e6;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header .title {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.header .sub-title {
+    font-size: 1.4rem;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Experience Summary */
+.experience-summary {
+    padding: 20px 0;
+    background: #e0f7fa;
+    color: #00796b;
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Skills Summary */
+.skills-summary {
+    padding: 20px 0;
+    background: #fce4ec;
+    color: #880e4f;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+/* Work Experience */
+.work-experience {
+    padding: 20px 0;
+    background: #ffe0b2;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.work-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+
+.work-card h3 {
+    color: #d32f2f;
+}
+
+.work-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Education */
+.education {
+    padding: 20px 0;
+    background: #e1f5fe;
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #0073e6;
+    color: white;
+}
